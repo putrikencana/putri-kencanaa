@@ -1,0 +1,37 @@
+body {
+    font-family: 'Helvetica', sans-serif; /* Mengubah font menjadi Helvetica */
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8ff; /* Menambahkan warna latar belakang putih kebiruan */
+}
+
+header {
+    background-color: #1a1a6b; /* Mengubah warna latar belakang header menjadi lebih gelap */
+    color: #ffdd00; /* Mengubah warna teks menjadi kuning cerah */
+    padding: 15px; /* Mengubah padding menjadi lebih besar */
+    text-align: center;
+    border-bottom: 3px solid #ffdd00; /* Menambahkan border kuning di bagian bawah header */
+}
+
+.menu-item img {
+    max-width: 35%; /* Mengubah lebar gambar menjadi 35% */
+    border-radius: 20px; /* Mengubah sudut gambar menjadi lebih bulat */
+    transition: transform 0.3s; /* Menambahkan animasi transformasi */
+}
+.menu-item img:hover {
+    transform: scale(1.05); /* Membesarkan gambar sedikit saat dihover */
+}
+
+#hours {
+    background-color: #e0e0e0; /* Mengubah warna latar belakang menjadi abu terang */
+    padding: 60px 0; /* Menambahkan padding yang lebih besar */
+    border-radius: 10px; /* Menambahkan border radius pada bagian ini */
+}
+
+footer {
+    background-color: #1a1a6b; /* Menyesuaikan warna footer dengan header */
+    color: #ffdd00; /* Mengubah warna teks menjadi kuning agar sesuai dengan header */
+    text-align: center;
+    padding: 15px; /* Menambahkan padding yang lebih besar */
+    border-top: 2px solid #ffdd00; /* Menambahkan border kuning di bagian atas footer */
+}
